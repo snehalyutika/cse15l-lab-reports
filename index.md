@@ -2,8 +2,7 @@ Hello world.
 *Hello world.*
 **Hello world.**
 # Hello world.
-
-![Image](C:\Users\sneha\OneDrive\Desktop\axolotl.jpg)
+![axolotl](https://user-images.githubusercontent.com/103288241/162536711-235bb037-1ad5-4472-ae8b-f1364d4df523.jpg)
 
 `Inline code` with backticks
 ```
