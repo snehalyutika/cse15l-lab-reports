@@ -1,3 +1,9 @@
+
+# `HERE IS THE LINK TO THE LAB REPORT 1:`
+
+[Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+----------------------------------------------------------------------------------------------
 Hello world.
 How's it going?
 
@@ -15,8 +21,5 @@ print '3 backticks or'
 print 'indent 4 spaces'
 ```
 
-# `HERE IS THE LINK TO THE LAB REPORT 1:`
-
-[Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
