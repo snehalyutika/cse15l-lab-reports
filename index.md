@@ -1,5 +1,5 @@
 
-# `HERE IS THE LINK TO THE LAB REPORT 1:`
+# HERE IS THE LINK TO THE LAB REPORT 1:
 
 [Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
