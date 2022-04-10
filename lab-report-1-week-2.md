@@ -28,14 +28,11 @@
 
          $ ssh cs15lsp22zz@ieng6.ucsd.edu
 
-    4.  Since this is likely the first time you’ve connected to this server, you will probably get a message like this:
+    4.  Since this is likely the first time you’ve connected to this server, you will probably get a message like in the following image.
+
+    5.  type yes and press enter, then give your password. The whole interaction should look something like this once you give your password and are logged in.
 
         ![Image](ssh.png)
-
-    
-
-        
-    5.  type yes and press enter, then give your password. The whole interaction should look something like this once you give your password and are logged in:
 
 ----------------------------------------------------------
 
@@ -58,6 +55,16 @@
 
     ![Image](rsc1.png)
 
+    --------------------------------------------------------
+    ![Image](rsc3.png)
+
+     --------------------------------------------------------
+    ![Image](rsc4.png)
+
+     --------------------------------------------------------
+    ![Image](rsc5.png)
+    
+     --------------------------------------------------------
     ![Image](rsc2.png)
 
 ----------------------------------------------------------
