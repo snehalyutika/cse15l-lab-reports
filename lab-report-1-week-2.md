@@ -32,6 +32,8 @@
 
         ![Image](ssh.png)
 
+    
+
         
     5.  type yes and press enter, then give your password. The whole interaction should look something like this once you give your password and are logged in:
 
