@@ -1,5 +1,4 @@
-# **LAB REPORT 1 WEEK 2**
-# Tutorial For Incoming 15L Students- How To Log Into a Course-specific Account on `ieng6`
+# **Tutorial For Incoming 15L Students- How To Log Into a Course-specific Account on `ieng6`**
 ------
 
 *  ## *Installing VS Code:*
