@@ -16,6 +16,6 @@ How's it going?
 print '3 backticks or'
 print 'indent 4 spaces'
 ```
-[Lab Report 1](https://snehal.yutika.github.io/CSE15L-LAB-REPORTS/lab-report-1-week-2.html)
+[Lab Report 1](https://snehal.yutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
 
