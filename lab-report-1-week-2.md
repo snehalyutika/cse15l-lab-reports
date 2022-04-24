@@ -20,7 +20,8 @@
     1. install OpenSSH 
 
     2. Then, look up your course-specific account for CSE15L here:
-        https://sdacs.ucsd.edu/~icc/index.php
+        
+        [Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
     3. Open a terminal in VSCode (Ctrl + `, or use the Terminal → New Terminal menu option).
         
