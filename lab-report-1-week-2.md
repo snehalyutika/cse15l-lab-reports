@@ -4,7 +4,7 @@
 
 *  ## *Installing VS Code:*
 
-    1. Go to the Visual Studio Code website https://code.visualstudio.com/
+    1. Go to the Visual Studio Code website [VS Code](https://code.visualstudio.com/)
 
     2. follow the instructions to download and install it on your computer.
 
@@ -20,15 +20,16 @@
     1. install OpenSSH 
 
     2. Then, look up your course-specific account for CSE15L here:
-        
-        [Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+       
+        [course-specific account](https://sdacs.ucsd.edu/~icc/index.php)
 
     3. Open a terminal in VSCode (Ctrl + `, or use the Terminal → New Terminal menu option).
         
         
          Your command will look like this, but with the zz replaced by the letters in your course-specific account.
-
+        ```
          $ ssh cs15lsp22zz@ieng6.ucsd.edu
+        ```
 
     4.  Since this is likely the first time you’ve connected to this server, you will probably get a message like in the following image.
 
@@ -90,8 +91,9 @@
 
     3. 
         Then, in the terminal from the directory where you made this file, run this command:
-
+        ```
         scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/
+        ```
 
     4. Then, log into ieng6 with ssh again, and use ls. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java. Since java is installed on the server, everyone should be able to run it no matter the client.
 
@@ -162,10 +164,15 @@
 
 
 
-    If you’re on Windows, follow the extra ssh-add steps here: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation
+    If you’re on Windows, follow the extra ssh-add steps here:
+    
+     [ssh-add](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
 
-    This is not necessary, do ssh-keygen -t ed25519
-
+    This is not necessary, do 
+    ```
+    ssh-keygen -t ed25519
+    ```
+    
     This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
     Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
 
