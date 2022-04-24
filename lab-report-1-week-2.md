@@ -73,6 +73,7 @@
 
     1. Create a file on your computer called WhereAmI.java and put the following contents into it:
 
+        ```
             class WhereAmI {
                 public static void main(String[] args) {
                     System.out.println(System.getProperty("os.name"));
@@ -81,6 +82,8 @@
                     System.out.println(System.getProperty("user.dir"));
                 }
             }
+            
+        ```
 
     2. Run it using javac and java on your computer.
 
@@ -108,6 +111,7 @@
 
      Here’s what you should run to set this up:
 
+    ```
         on client (your computer)
 
         $ ssh-keygen
@@ -153,6 +157,7 @@
         |             ..  |
 
         +----[SHA256]-----+
+    ```
 
 
 
@@ -163,6 +168,7 @@
     This created two new files on your system; the private key (in a file id_rsa) and the public key (in a file id_rsa.pub), stored in the .ssh directory on your computer.
     Now we need to copy the public (not the private) key to the .ssh directory of your user account on the server.
 
+    ```
     $ ssh cs15lsp22zz@ieng6.ucsd.edu
         <Enter Password>
 
@@ -175,6 +181,8 @@
         # back on client
 
         $ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+    ```
 
         # You use your username and the path you saw in the command above
 
@@ -189,12 +197,16 @@
 * ## *Optimizing Remote Running:*
     
     1. You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
-    
+
+        ```
             $ ssh cs15lsp22zz@ieng6.ucsd.edu "ls"
+        ```
 
     2. You can use semicolons to run multiple commands on the same line in most terminals. For example, try:
-    
-            $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+
+        ```
+        $ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
+        ```
     
     3. You can use the up-arrow on your keyboard to recall the last command that was run.
 
