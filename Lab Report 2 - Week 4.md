@@ -7,5 +7,9 @@
 
 ![Image](change2.png)
 
-[testfile 2]()
+[testfile 2](https://github.com/snehalyutika/cse15l-lab-reports/blob/main/test1.md)
 
+
+![Image](change3.png)
+
+[testfile 3](https://github.com/snehalyutika/cse15l-lab-reports/blob/main/test2.md)
