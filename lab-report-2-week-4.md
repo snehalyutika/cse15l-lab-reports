@@ -1,14 +1,13 @@
 # LAB REPORT 2 WEEK 4
 
 1. The file  ran into an issue of an infinite loop due to an extra line at the end of the code. This issue was taken care of my adding an if staement as shown in the below image. 
-
+ 
 
     Here is the link to the test file with the failure-inducing input:
+      [testfile 1](https://github.com/snehalyutika/cse15l-lab-reports/blob/main/test.md)
 
-    [testfile 1](https://github.com/snehalyutika/cse15l-lab-reports/blob/main/test.md)
-
-
-    ![Image](change.png)
+  
+ 
 
 -------------------------------------------------------------
 
@@ -29,4 +28,11 @@
     [testfile 3](https://github.com/snehalyutika/cse15l-lab-reports/blob/main/test2.md)
 
     ![Image](change3.png)
+-----------------------------------------------------
+4.  The file ran into an issue of an infinite loop due to an open paranthesis at the beginning 
+ 
 
+    Here is the link to the test file with the failure-inducing input:
+
+
+   ![Image](change.png)
