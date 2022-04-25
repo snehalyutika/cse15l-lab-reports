@@ -3,11 +3,12 @@
 
 [Lab Report 1](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
 
------------------------------------------------------------------------
+----------------------------------------------------------------------
 
 # HERE IS THE LINK TO THE LAB REPORT 2:
 
-[Lab Report 2](https://snehalyutika.github.io/cse15l-lab-reports/LabReport2-Week4.html)
+[Lab Report 2](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
 
 Hello world.
 How's it going?
