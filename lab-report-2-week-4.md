@@ -29,7 +29,7 @@
 
     ![Image](change3.png)
 -----------------------------------------------------
-4.  The file ran into an issue of an infinite loop due to an open paranthesis at the beginning 
+4.  The file ran into an issue due to an absence of closed paranthesis at the end of the file.  This issue was taken care of my adding an if staement as shown in the below image. 
  
 
     Here is the link to the test file with the failure-inducing input:
