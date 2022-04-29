@@ -9,11 +9,12 @@ public class MarkdownParseTest {
 
     Object[][] allArrays = {{"testFileArray"}, {"testFile2Array"}, 
         {"testFile3Array"}, {"testFile4Array"}, {"testFile5Array"}, 
-        {"testFile6Array"}, {"testFile7Array"}, {"testFile8Array"}};
+        {"testFile6Array"}, {"testFile7Array"}, {"testFile8Array"},
+        {"testFile9Array"}};
 
     String[] fileNames = {"test-file.md", "test-file2.md", "test-file3.md",
         "test-file4.md", "test-file5.md", "test-file6.md", "test-file7.md",
-        "test-file8.md"};
+        "test-file8.md", "test-file9.md"};
     
     @Before 
     public void setUp() throws Exception {
@@ -84,6 +85,13 @@ public class MarkdownParseTest {
         String[] expected = {};
 
         assertArrayEquals(expected, allArrays[7]);
+    }
+
+    @Test
+    public void getLinksTest9() throws Exception {
+        String[] expected = {"There is no parenthesis"};
+
+        assertArrayEquals(expected, allArrays[8]);
     }
     
 }
