@@ -2,7 +2,7 @@
 ---------------------------------
 - Link to our markdown-parse repository: [Our Repository](https://github.com/ima-quack/markdown-parser)
 
-- Link to markdown-parse repository reviewed : [Reviewed Repository](https://github.com/astoriama/markdown-parser.git)
+- Link to markdown-parse repository reviewed : [Reviewed Repository ](https://github.com/astoriama/markdown-parser.git)
 ---------------------------------
 
 # Snippet 1
@@ -129,12 +129,14 @@ It did not pass the test.
 
 # ANALYSIS
 - Snippet 1
+
     The problem with the first snippet is that the code block signaler ` implies a certain behavior how the links should work. We could possibly make a change which checks if there is a Code Block line before the Open Brackets. 
 
 - Snippet 2
+
     The problem with the second snippet is that a.com(()) was being cut of half of its last ) and missing the last link. This was because of multiple parenthesis within a.com(()). We would need to check the number of parenthesis within a valid url link. 
     I would require a type of parenthesisMatcher method which may be best paired with a Stack data structure like above.
-    
+
 - Snippet 3
 
     The problem with the third snippet is that our implementation of getLinks does not check for line breaks do not break the parsed links. This fix requires a better way through which line breaks are transcribed through Java Strings as we do not have a way to check if lines are within the url snip currently.
