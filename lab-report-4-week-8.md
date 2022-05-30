@@ -1,7 +1,7 @@
 # LAB REPORT 4 WEEK 8
 ---------------------------------
 
-- Link to our markdown-parse repository: [Our Repository](https://github.com/ima-quack/markdown-parser)
+- Link to our markdown-parse repository: [My Repository](https://github.com/snehalyutika/cse15l-lab-reports.git)
 
 - Link to markdown-parse repository reviewed: [Reviewed Repository ](https://github.com/astoriama/markdown-parser.git)
 

@@ -1,4 +1,3 @@
-//https://howtodoinjava.com/java/io/java-read-file-to-string-examples/
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -68,6 +67,12 @@ public class MarkdownParse {
             // If doesn't exist, then termiante
             if(closeParen < 0){
                 break;
+            }
+
+            // Check to see if there is another ) within the link ()
+            int followingCloseParen = markdown.indexOf(")", closeParen + 1);
+            while (followingCloseParen == (closeParen + 1)) {
+                closeParen = followingCloseParen;
             }
 
             // Check to see if char at index preceding [ was a !, because then that is an image link and not url
