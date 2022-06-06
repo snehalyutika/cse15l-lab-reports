@@ -1,7 +1,9 @@
 # LAB REPORT 5 WEEK 10
 ---------------------------------
 - Link to my markdown-parse repository: [My Repository](https://github.com/snehalyutika/cse15l-lab-reports.git)
+
 - Link to cloned repository: [Cloned Repository](https://github.com/nidhidhamnani/markdown-parser.git)
+
 -------------------------------------------------------------
 
 ## Finding the tests with different results
