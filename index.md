@@ -15,8 +15,11 @@
 
 [Lab Report 4](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
---------------------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
+# HERE IS THE LINK TO THE LAB REPORT 5:
+
+[Lab Report 5](https://snehalyutika.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
 
 Hello world.
 How's it going?

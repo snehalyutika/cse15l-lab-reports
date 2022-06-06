@@ -13,6 +13,7 @@ public class MarkdownParse {
         int newLinkIndex = 0;
         // Check each index of the Markdown file until it reaches the end
         int openBracket = markdown.indexOf("[", newLinkIndex);
+
         if (openBracket < 0) {
             toReturn.add("There is no parenthesis");
         }
